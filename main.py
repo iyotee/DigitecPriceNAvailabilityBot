@@ -21,7 +21,6 @@ class Article:
         self.sale = sale
         self.availability = availability
 
-
 def getProductDetailFromURL(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -61,7 +60,7 @@ def getTitle(productDetail):
     return title
 
 def buildURL(articleID):
-    pre = "https://www.digitec.ch/de/s1/product/"
+    pre = "https://www.digitec.ch/fr/s1/product/"
 
     return pre+str(articleID)
 
