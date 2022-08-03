@@ -86,6 +86,13 @@ git clone https://github.com/iyotee/DigitecPriceNAvailabilityBot.git
 
 ```sh
 python3 pip install python-telegram-bot -y
+
+```sh
+python3 pip install requests -y
+``````
+
+```sh
+python3 pip install bs4 -y
 ```
 
 4. Enter your API in `main.py`
