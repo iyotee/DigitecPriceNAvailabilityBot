@@ -6,7 +6,7 @@
   <h3 align="center">DigitecPriceBot2Telegram</h3>
 
   <p align="center">
-    An Awesome ReadME Generator To Jumpstart Your Projects!
+    A simple python script to crawl the Switzerland companies both Digitec and Galaxus AG websites products list
     <br/>
     <br/>
     <a href="https://github.com/Iyotee/DigitecPriceNAvailabilityBot"><strong>Explore the docs »</strong></a>
