@@ -1,0 +1,12 @@
+Article: 
+Aero  KMO120M3
+357.–
+True
+A
+####################
+Article: 
+ASUS  GeForce ROG STRIX RTX 3090 GAMING
+1500.–
+False
+0
+####################
