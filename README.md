@@ -42,6 +42,8 @@
 
 A simple python script to crawl the Switzerland companies both websites Digitec and Galaxus AG products list
 
+![Screen Shot](images/screenshot.png)
+
 Here's why:
 
 * Because both companies are great
