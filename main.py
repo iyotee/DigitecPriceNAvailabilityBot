@@ -72,7 +72,7 @@ def buildArticle(url):
     return Article(title, price, sale, availability)
 
 def sendMessage(message):
-    bot.send_message(chat_id=user_id, text='Article: ' + message.title + '\n' + 'Prix: ' + message.price +  '\n' + 'En solde: ' + str(message.sale[0]) + ' -> ' + str(message.sale[1]) + '\n' + 'Disponible: ' + message.availability)
+    bot.send_message(chat_id=user_id, text='📣\t Digitec product offers updates \t📣' + '\n\n' + 'Article: ' + message.title + '\n' + 'Prix: ' + message.price +  '\n' + 'En solde: ' + str(message.sale[0]) + ' -> ' + str(message.sale[1]) + '\n' + 'Disponible: ' + message.availability + '\n' + "URL: " + buildURL(p))
 
 # def sendMessageIfChanged (not used anymore)
 def sendMessageIfChanged(message):
@@ -102,7 +102,7 @@ products = []
 for p in productIDs:
     art = buildArticle(buildURL(p))
     products.append(art)
-    print('Article: ' + art.title + '\n' + 'Prix: ' + art.price +  '\n' + 'En solde: ' + str(art.sale[0]) + ' -> ' + str(art.sale[1]) + '\n' + 'Disponible: ' + art.availability)
+    print('Article: ' + art.title + '\n' + 'Prix: ' + art.price +  '\n' + 'En solde: ' + str(art.sale[0]) + ' -> ' + str(art.sale[1]) + '\n' + 'Disponible: ' + art.availability + '\n' + '\n' + 'URL: ' + buildURL(p))
     hashTags()
     sendMessage(art)
 
