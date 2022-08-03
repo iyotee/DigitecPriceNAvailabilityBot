@@ -5,7 +5,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">ReadME Generator</h3>
+  <h3 align="center">DigitecPriceBot2Telegram</h3>
 
   <p align="center">
     An Awesome ReadME Generator To Jumpstart Your Projects!
@@ -36,70 +36,75 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+
 
 ## About The Project
 
 ![Screen Shot](images/screenshot.png)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+A simple python script to crawl the Switzerland companies both websites Digitec and Galaxus AG products list
 
 Here's why:
 
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+* Because both companies are great
+* Because i need low prices everytime
+* Because i love 'em
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ## Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Python
+BeautifulSoup4
+
+Coffee and Love
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Clone this repo
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You should already or have to create a bot on telegram, thus returns you a token. Then you can ask the Telegram UserID bot to give you your User ID.
 
-* npm
+* pip
 
 ```sh
-npm install npm@latest -g
+sudo apt-get install python3-pip -y
 ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key from Telegram @BotFather
 
 2. Clone the repo
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/iyotee/DigitecPriceNAvailabilityBot.git
 ```
 
-3. Install NPM packages
+3. Install pip packages
 
 ```sh
-npm install
+python3 pip install python-telegram-bot -y
 ```
 
-4. Enter your API in `config.js`
+4. Enter your API in `main.py`
 
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+you can create a cron task every hour ( 0 * * * * ) 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```sh
+crontab -e
+```
+edit the end of the files by appending :
+```sh
+0 * * * * python3 DigitecPriceNAvailabilityBot/main.py
+```
+
+save and exit with ctrl+x
+
 
 ## Roadmap
 
@@ -127,10 +132,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/Iyotee/Digit
 
 ## Authors
 
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
-
-## Acknowledgements
-
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
+* **Jérémy Noverraz** - *Comp Sci enthousiast* - [Iyotee](https://github.com/iyotee/) - *Made with a lot of coffee*
