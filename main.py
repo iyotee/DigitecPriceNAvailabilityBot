@@ -1,4 +1,3 @@
-from reprlib import recursive_repr
 import requests
 from bs4 import BeautifulSoup
 import telegram
