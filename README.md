@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Iyotee/DigitecPriceNAvailabilityBot">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="335" height="168">
   </a>
 
   <h3 align="center">DigitecPriceBot2Telegram</h3>
