@@ -1,12 +1,18 @@
 Article: 
-Aero  KMO120M3
-357.–
-True
-A
+ASUS  GeForce ROG STRIX RTX 3090 GAMING
+1544.60
+False
+0
 ####################
 Article: 
-ASUS  GeForce ROG STRIX RTX 3090 GAMING
-1500.–
+Samsung  980 Pro
+133.–
+True
+3.–/1TB
+####################
+Article: 
+Kingston  FURY Beast
+62.50
 False
 0
 ####################
