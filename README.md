@@ -110,7 +110,7 @@ edit the end of the files by appending :
 0 * * * * python3 DigitecPriceNAvailabilityBot/main.py
 ```
 
-save and exit with ctrl+x
+Save and exit with ctrl+x and that's it ! Your bot is now running and sending your message on your Telegram user every hour ! 🎊
 
 
 ## Roadmap
