@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import telegram
 import linecache
 
-api_key = '5541825850:AAGldFcgZBndMJ4_g3uasLVWoEloBpQ9mZo'
-user_id = '1011416325'
+api_key = 'YOUR_API_TOKEN_FROM_BOTFATHER'
+user_id = 'YOUR_TELEMEUG_USERID'
 
 bot = telegram.Bot(token=api_key)
 
