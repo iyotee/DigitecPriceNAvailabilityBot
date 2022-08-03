@@ -20,7 +20,8 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Iyotee/DigitecPriceNAvailabilityBot/total) ![Contributors](https://img.shields.io/github/contributors/Iyotee/DigitecPriceNAvailabilityBot?color=dark-green) ![Issues](https://img.shields.io/github/issues/Iyotee/DigitecPriceNAvailabilityBot) ![License](https://img.shields.io/github/license/Iyotee/DigitecPriceNAvailabilityBot) 
+<p align=center>![Downloads](https://img.shields.io/github/downloads/Iyotee/DigitecPriceNAvailabilityBot/total) ![Contributors](https://img.shields.io/github/contributors/Iyotee/DigitecPriceNAvailabilityBot?color=dark-green) ![Issues](https://img.shields.io/github/issues/Iyotee/DigitecPriceNAvailabilityBot) ![License](https://img.shields.io/github/license/Iyotee/DigitecPriceNAvailabilityBot)
+</p>
 
 ## Table Of Contents
 
