@@ -38,7 +38,6 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
 
 A simple python script to crawl the Switzerland companies both websites Digitec and Galaxus AG products list
 
