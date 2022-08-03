@@ -1,12 +1,12 @@
 <p align="center">
   <a href="https://github.com/Iyotee/DigitecPriceNAvailabilityBot">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.svg" alt="Logo" width="669" height="335">
   </a>
 
   <h3 align="center">DigitecPriceBot2Telegram</h3>
 
   <p align="center">
-    An Awesome ReadME Generator To Jumpstart Your Projects!
+    A simple python script to crawl the Switzerland companies both Digitec and Galaxus AG websites products list
     <br/>
     <br/>
     <a href="https://github.com/Iyotee/DigitecPriceNAvailabilityBot"><strong>Explore the docs »</strong></a>
@@ -20,7 +20,8 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Iyotee/DigitecPriceNAvailabilityBot/total) ![Contributors](https://img.shields.io/github/contributors/Iyotee/DigitecPriceNAvailabilityBot?color=dark-green) ![Issues](https://img.shields.io/github/issues/Iyotee/DigitecPriceNAvailabilityBot) ![License](https://img.shields.io/github/license/Iyotee/DigitecPriceNAvailabilityBot) 
+![Downloads](https://img.shields.io/github/downloads/Iyotee/DigitecPriceNAvailabilityBot/total) ![Contributors](https://img.shields.io/github/contributors/Iyotee/DigitecPriceNAvailabilityBot?color=dark-green) ![Issues](https://img.shields.io/github/issues/Iyotee/DigitecPriceNAvailabilityBot) ![License](https://img.shields.io/github/license/Iyotee/DigitecPriceNAvailabilityBot)
+
 
 ## Table Of Contents
 
@@ -38,9 +39,10 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
 
 A simple python script to crawl the Switzerland companies both websites Digitec and Galaxus AG products list
+
+![Screen Shot](images/screenshot.png)
 
 Here's why:
 
@@ -84,10 +86,11 @@ git clone https://github.com/iyotee/DigitecPriceNAvailabilityBot.git
 
 ```sh
 python3 pip install python-telegram-bot -y
+```
 
 ```sh
 python3 pip install requests -y
-``````
+```
 
 ```sh
 python3 pip install bs4 -y
