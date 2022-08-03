@@ -13,7 +13,6 @@ productIDs = [
               '13823466',
               '16234727',
               ]
-
 class Article:
     def __init__(self, title, price, sale, availability):
         self.title = title

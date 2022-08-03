@@ -1,1 +1,2 @@
 # DigitecPriceBot2Telegram
+# DigitecPriceNAvailabilityBot
