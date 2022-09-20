@@ -64,7 +64,7 @@ Clone this repo
 
 ### Prerequisites
 
-You should already or have to create a bot on telegram, thus returns you a token. Then you can ask the Telegram UserID bot to give you your User ID.
+You should already have a bot on telegram or you have to create one, thus returns you a token. Then you can ask the Telegram UserID bot to give you your User ID.
 
 * pip
 
