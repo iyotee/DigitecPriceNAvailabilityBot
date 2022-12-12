@@ -64,12 +64,6 @@ Clone this repo
 
 ### Prerequisites
 
-You should already have a bot on telegram or you have to create one, thus returns you a token. Then you can ask the Telegram UserID bot https://telegram.me/myidbot to give you your User ID by sending the command :
-
-```sh
-/getid
-```
-
 * pip
 
 ```sh
@@ -78,7 +72,11 @@ sudo apt-get install python3-pip -y
 
 ### Installation
 
-1. Get a free API Key from Telegram @BotFather https://telegram.me/BotFather
+1. Get a free API Key from Telegram @BotFather https://telegram.me/BotFather. Then you can ask the Telegram UserID bot https://telegram.me/myidbot to give you your User ID by sending the command :
+
+```sh
+/getid
+```
 
 2. Clone the repo
 
