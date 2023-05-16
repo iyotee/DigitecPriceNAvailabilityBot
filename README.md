@@ -56,7 +56,6 @@ Here's why:
 Python
 BeautifulSoup4
 
-Coffee and Love
 
 ## Getting Started
 
